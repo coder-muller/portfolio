@@ -1,23 +1,34 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Syne, Outfit } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const syne = Syne({
   subsets: ["latin"],
+  variable: "--font-syne",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const outfit = Outfit({
   subsets: ["latin"],
+  variable: "--font-outfit",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Guilherme Müller | Full Stack Developer",
-  description: "Portfólio de Guilherme Müller (coder-muller) - Desenvolvedor Full Stack especializado em React, Next.js, Node.js e tecnologias modernas.",
-  keywords: ["Guilherme Müller", "coder-muller", "Full Stack Developer", "React", "Next.js", "TypeScript", "Node.js"],
+  title: "Müller Inc. | Digital Solutions",
+  description:
+    "Soluções digitais construídas com precisão e propósito. Desenvolvimento web, sistemas empresariais e produtos SaaS.",
+  keywords: [
+    "Müller Inc.",
+    "Guilherme Müller",
+    "desenvolvimento web",
+    "sistemas",
+    "SaaS",
+    "React",
+    "Next.js",
+  ],
   authors: [{ name: "Guilherme Müller" }],
-  creator: "Guilherme Müller",
+  creator: "Müller Inc.",
 };
 
 export default function RootLayout({
@@ -27,9 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="dark">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${syne.variable} ${outfit.variable} antialiased`}>
         {children}
       </body>
     </html>
