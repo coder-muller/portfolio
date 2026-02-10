@@ -1,6 +1,6 @@
 export const company = {
   name: "Müller Inc.",
-  tagline: "Soluções digitais construídas com precisão e propósito.",
+  tagline: "Soluções digitais criadas com qualidade e eficiência para o seu negócio.",
   about:
     "Somos um estúdio de soluções digitais focado em construir aplicações web modernas e escaláveis. Combinamos expertise técnica com atenção meticulosa aos detalhes para entregar resultados reais.",
   email: "guilhermemullerxx@gmail.com",
@@ -11,27 +11,27 @@ export const company = {
 };
 
 export const stats = [
-  { value: "10+", label: "Clients" },
-  { value: "500+", label: "Users" },
+  { value: "10+", label: "Clientes" },
+  { value: "500+", label: "Usuários" },
   { value: "99.9%", label: "Uptime" },
 ];
 
 export const services = [
   {
     number: "01",
-    title: "Web Applications",
+    title: "Aplicações Web",
     description:
       "Aplicações web completas construídas com React, Next.js e tecnologias modernas. Do conceito ao deploy.",
   },
   {
     number: "02",
-    title: "Business Systems",
+    title: "Sistemas Empresariais",
     description:
       "Plataformas personalizadas para gestão de operações. Agendamento, faturamento e controle completo.",
   },
   {
     number: "03",
-    title: "SaaS Products",
+    title: "Produtos SaaS",
     description:
       "Software escalável projetado para crescimento. Do MVP ao mercado, com arquitetura sólida.",
   },

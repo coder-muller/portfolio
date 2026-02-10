@@ -153,7 +153,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Grain overlay */}
-      <div className="grain" />
+      <div className="grain " />
 
       {/* Ambient glow */}
       <div className="fixed inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_50%_0%,rgba(255,255,255,0.03)_0%,transparent_50%)]" />
@@ -174,7 +174,7 @@ export default function Home() {
             transition={{ duration: 0.3 }}
           >
             <Logo className="w-5 h-5 text-zinc-100" />
-            <span className="font-heading font-semibold text-xs tracking-[0.2em] uppercase">
+            <span className="hidden md:block font-heading font-semibold text-xs tracking-[0.2em] uppercase">
               Müller Inc.
             </span>
           </motion.div>
@@ -268,7 +268,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
             <div>
-              <SectionLabel>01 — About</SectionLabel>
+              <SectionLabel>01 — Sobre</SectionLabel>
               <Reveal delay={0.1}>
                 <h2 className="font-heading text-3xl md:text-4xl font-semibold mt-6 leading-[1.2] tracking-tight">
                   Transformamos ideias em{" "}
@@ -308,7 +308,7 @@ export default function Home() {
       {/* ── Services ────────────────────────────── */}
       <section id="services" className="py-28 md:py-36 px-6">
         <div className="max-w-6xl mx-auto">
-          <SectionLabel>02 — Services</SectionLabel>
+          <SectionLabel>02 — Serviços</SectionLabel>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px mt-12 bg-zinc-800/40 border border-zinc-800/40 overflow-hidden">
             {services.map((service, i) => (
@@ -335,7 +335,7 @@ export default function Home() {
       {/* ── Testimonials ────────────────────────── */}
       <section className="py-28 md:py-36 px-6">
         <div className="max-w-6xl mx-auto">
-          <SectionLabel>03 — Trusted By</SectionLabel>
+          <SectionLabel>03 — O que falam sobre nós</SectionLabel>
 
           <div className="mt-12 divide-y divide-zinc-800/40">
             {testimonials.map((t, i) => (
@@ -362,7 +362,7 @@ export default function Home() {
       {/* ── Contact ─────────────────────────────── */}
       <section id="contact" className="py-28 md:py-36 px-6">
         <div className="max-w-6xl mx-auto">
-          <SectionLabel>04 — Contact</SectionLabel>
+          <SectionLabel>04 — Contato</SectionLabel>
 
           <Reveal delay={0.1}>
             <h2 className="font-heading text-3xl md:text-4xl font-semibold mt-6 tracking-tight">
