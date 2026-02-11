@@ -115,9 +115,9 @@ function Divider() {
 /* ── Navigation ────────────────────────────────────── */
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Contact", href: "#contact" },
+  { label: "Sobre", href: "#about" },
+  { label: "Serviços", href: "#services" },
+  { label: "Contato", href: "#contact" },
 ];
 
 /* ── Contact Links ─────────────────────────────────── */

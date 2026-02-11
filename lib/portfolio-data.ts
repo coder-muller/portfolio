@@ -3,7 +3,7 @@ export const company = {
   tagline: "Soluções digitais criadas com qualidade e eficiência para o seu negócio.",
   about:
     "Somos um estúdio de soluções digitais focado em construir aplicações web modernas e escaláveis. Combinamos expertise técnica com atenção meticulosa aos detalhes para entregar resultados reais.",
-  email: "guilhermemullerxx@gmail.com",
+  email: "guilhermecoelhomuller@gmail.com",
   github: "https://github.com/coder-muller",
   githubHandle: "coder-muller",
   twitter: "https://x.com/codermuller",
