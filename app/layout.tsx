@@ -15,7 +15,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Müller Inc. | Digital Solutions",
+  title: "Müller Inc. | Soluções Digitais",
   description:
     "Soluções digitais construídas com precisão e propósito. Desenvolvimento web, sistemas empresariais e produtos SaaS.",
   keywords: [
